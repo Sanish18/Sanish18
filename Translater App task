@@ -7,10 +7,6 @@ root.geometry('1080x400')
 root.resizable(0,0)
 root.config(bg = 'ghost white')
 
-root.title("Project Gurukul--Language Translator")
-
-Label(root, text = "LANGUAGE TRANSLATOR", font = "arial 20 bold", bg='white smoke').pack()
-
 Label(root,text ="Project Gurukul", font = 'arial 15 bold', bg ='white smoke' , width = '20').pack(side = 'bottom')
 Label(root,text ="Enter Text", font = 'arial 13 bold', bg ='white smoke').place(x=200,y=60)
 
